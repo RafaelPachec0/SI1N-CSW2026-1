@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+
+h2  {
+    font-style: inherit;
+}
+p {
+    color: rgb(48, 48, 233);
+    background-color:rgba(245, 212, 171, 0.589);
+}
+mark {
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
