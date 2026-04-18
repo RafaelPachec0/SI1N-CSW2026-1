@@ -1,47 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 09</title>
 </head>
+
 <body>
     <h1>Formulários</h1>
-    
-'    <form action="mailto:seu.email@seuemail.com" method="post">
-        <label for="">Nome: </label>
-            <input type="text" name="nome-usuario" id="nome-usuario01" size="40" maxlength="30"
-            value="" placeholder="" required>
-        <br>
-        <br>
-        <label for="">E-mail pessoal: </label>
-            <input type="email" name="email" id="email" size="40" maxlength="30"
-            value="" placeholder="" required>
-        <br>
-        <br>
-        <label for="">E-mail (patter): </label>
-            <input type="email" name="email" id="email" size="40" maxlength="30"
-            value="" placeholder="" required>'
-        <br>
-        <br>
-        <label for="Senha">Senha: </label>
-            <input type="senha" name="senha" id="senha" size="40" maxlength="30"
-            value="" placeholder="" required>
 
-
-
-
-
-
-
-
-
-
-
-
-        </form>
-    </table>
-
+    <form>
+        <table border="1">
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome" placeholder="Digite seu nome"></td>
+            </tr>
+            <tr>
+                <td><label for="email-pessoal">E-mail pessoal:</label></td>
+                <td><input type="email" id="email-pessoal" name="email-pessoal"></td>
+            </tr>
+            <tr>
+                <td><label for="email-pattern">E-mail (patter):</label></td>
+                <td><input type="text" id="email-pattern" name="email-pattern" placeholder="Digite seu email com @">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="senha">Senha:</label></td>
+                <td><input type="password" id="senha" name="senha"></td>
+            </tr>
+            <tr>
+                <td><label for="idade">Idade:</label></td>
+                <td><input type="number" id="idade" name="idade" min="0" max="120"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="comentario">Deixe um comentário:</label>
+                    <br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>Materia de interesse:</div>
+                    <label><input type="checkbox" name="materia" value="backend"> Backend</label>
+                    <br>
+                    <label><input type="checkbox" name="materia" value="frontend"> FrontEnd</label>
+                    <br>
+                    <label><input type="checkbox" name="materia" value="fullstack"> FullStack</label>
+                </td>
+                <td>
+                    <div>Tipo de Viagem:</div>
+                    <label><input type="radio" name="viagem" value="negocios"> Negócios</label>
+                    <br>
+                    <label><input type="radio" name="viagem" value="lazer"> Lazer</label>
+                    <br>
+                    <label><input type="radio" name="viagem" value="turismo"> Turismo</label>
+                    <br>
+                    <label><input type="radio" name="viagem" value="academico"> Acadêmico</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="esporte">Esporte favorito:</label>
+                    <select id="esporte" name="esporte" multiple size="4">
+                        <option>Futebol</option>
+                        <option>Basquete</option>
+                        <option>Vôlei</option>
+                        <option>Tênis</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="investimentos">Investimentos:</label>
+                    <select id="investimentos" name="investimentos" size="8">
+                        <option selected>Poupança</option>
+                        <option>CDB</option>
+                        <option>Tesouro Direto</option>
+                        <option>Fundos Imobiliários</option>
+                        <option>CDI</option>
+                        <option>DEBÊNTURES</option>
+                        <option>Criptomoedas</option>
+                        <option>Ações</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cor">Escolha uma cor:</label>
+                    <input type="color" id="cor" name="cor" value="#000000">
+                </td>
+                <td>
+                    <label for="arquivo">Selecione um arquivo:</label>
+                    <input type="file" id="arquivo" name="arquivo">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="data-hora">Data e Hora envio:</label>
+                    <input type="datetime-local" id="data-hora" name="data-hora">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
 
 
 
@@ -49,4 +115,5 @@
 
 
 </body>
+
 </html>
