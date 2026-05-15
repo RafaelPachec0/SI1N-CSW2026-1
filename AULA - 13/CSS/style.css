@@ -1,40 +1,71 @@
-body {
-    background-color: rgb(161, 196, 226);
+body{
+    background-color: rgb(226, 226, 226);
 }
 
-.container {
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    gap: 50px;
-    padding: 15px 30px;
-    border: 3px solid black;
-    border-radius: 8px;
+    padding: 20px;
+    border: 3px solid rgb(0, 29, 126);
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
-.boxD {
-    display: block;
+.boxD{
     width: 50px;
     height: 50px;
-    gap: 50px;
-    border-radius: 15px;
+    border-radius: 10px;
+    background-color: rgb(0, 29, 126);
 }
 
-.boxP {
+.boxP{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    gap: 15px;
 }
-.boxE {
-    width: 50px;
+
+.boxE{
+    width: 60px;
     height: 20px;
-    gap: 50px;
-    border-radius: 15px;
+    border-radius: 10px;
+    background-color: rgb(0, 29, 126);
 }
 
-.container2 {
-    align-content: stretch;
+.galeria{
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.card{
+    height: 80px;
+    min-width: 120px;
+    border-radius: 10px;
+    background-color: gray;
+    flex-grow: 1;
+}
+
+.pequeno{
+    flex-grow: 1;
+}
+
+.grande{
+    flex-grow: 2;
+}
+
+.gigante{
+    flex-grow: 3;
 }
