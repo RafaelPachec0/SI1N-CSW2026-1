@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-01</title>
+</head>
+<body>
+    <p>Olá, mundo!</p>
+    <p>A aula de CSW está sendo muito boa.</p>
+    <p>Estou aprendendo bastante sobre HTML.</p>
+    <p>Obrigado, professor!</p>
+
+    <h1> &rarr; Minha Primeira Página HTML &larr;</h1>
+    <br>
+    <br>
+    <br>
+    <h2> &rarr; &rarr; Teste da tag hx &larr; &larr;</h2>
+    <br>
+    <br>
+    <br>
+    <h3> &rarr; &rarr; &rarr; Testando a tag mais uma vez &larr; &larr; &larr;</h3>
+
+    <h1>Simbologia</h1>
+    <p>
+        Estes são os sinais de maior e menor usando simbolos de escape: &lt; e &gt; respectivamente</p>
+    <p> Simbolos sempre serão iniciados apartir do & (E Comercial)</p>
+    <p> Emojis Sempre começam com "&#x"</p>
+    <p> &#x2764; </p>
+
+<p>Construido por Rafael Pacheco&reg;</p>
+    <h1> Desafio dos Filmes</h1>
+
+    <h3><p>1 - &#x1F319; &#x1F6B2; &#x1F449; &#x1F448; &#x1F47D; &rAarr; E.T. O Extraterrestre</p>
+    <p>2 - &#x1F474; &#x1F48D; &#x1F48D; &#x1F48D; &rAarr; O Senhor dos Anéis</p>
+    <p>3 - &#x1F30D; &#x1F435; &#x1F412; &#x1F648; &#x1F649; &#x1F64A; &rAarr; Planeta dos Macacos</p>
+    <p>4 - &#x1F608; &#x1F460; &#x1F45C; &#x1F457; &rAarr; O Diabo Veste Padra</p>
+    <p>5 - &#x1F9D4; &#x1F449; &#x1F37B; &#x274C; &#x1F470; &rAarr; Se beber não charset</p>
+    <br>
+    <br>
+    <br>
+    <h1>Desafio das Mensagens</h1>
+    <p>&rarr; Primeiro Paragrafo.&gt;</p>
+    <p>&rarr; &rarr; Segundo Paragrafo.&gt;</p>
+    <p>&rarr; &rarr; &rarr; Terceiro Paragrafo.&gt;</p>
+    <br>
+    <br>
+    <br>
+    &larr; &larr; &larr; Terceiro Paragrafo.&gt;
+    <p>&larr; &larr; Segundo Paragrafo.&gt;</p>
+    <p>&larr; Primeiro Paragrafo.;</p>
+    </h3>
+</body>
+</html>
