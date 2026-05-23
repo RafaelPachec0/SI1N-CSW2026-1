@@ -17,9 +17,12 @@ else {
     document.getElementById('nomeAluno').innerHTML = 'O aluno NÃO GOSTA de JavaScript'
 }
 
-function exibeNomeAluno() {
-    let inputAluno = document.getElementById('inputNomeAluno').value;
-    document.getElementById('resposta').innerHTML = "O nome digitado foi: " + inputAluno;
+function clear() {
+    document.getElementById('inputNomeAluno').value = '';
+    document.getElementById('resposta').innerHTML = "";
 }
 
-exibeNomeAluno()
+function exibeNomeAluno() {
+    let inputAluno = document.getElementById('inputNomeAluno').value;
+    document.getElementById('respostas').innerHTML = "O nome digitado foi: " + inputAluno;
+}

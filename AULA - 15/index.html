@@ -16,12 +16,19 @@
     <br>
     <br>
 
-    <div style="border-style: solid; width: 400px; height: 200px;">
+    <div style="border-style: solid; width: 400px; height: 200px;" class="card">
         <label for="nomAluno">Nome do Aluno: </label>
         <input type="text" id="inputNomeAluno">
-        <button onclick="exibeNomeAluno" class="botao"> Enviar </button>
+        <button onclick="exibeNomeAluno()" class="botao" id="nomeAluno"> Enviar </button>
+        <button onclick="clear()"> Limpar </button>
     </div>
-    <div id="resposta" class="card"></div>
+    
+    <br>
+
+    <div style="border-style: solid; width: 300px; height: 20px;" id="resposta" class="card"></div>
+    
+    <br>
+
     <script src="script.js">    </script>
 </body>
 </html>
