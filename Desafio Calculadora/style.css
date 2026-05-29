@@ -2,15 +2,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: white;
+    text-align: center;
     padding: 30px;
     border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.404);
 }
 
 input {
@@ -20,12 +25,68 @@ input {
 }
 
 button {
+    width: 250px;
     padding: 10px;
     margin-top: 10px;
-    cursor: pointer;
+    color: white;
+    background-color: rgb(17, 75, 161);
+    border-radius: 5px;
 }
 
 p {
     margin-top: 20px;
     font-size: 20px;
+}
+
+.fundo_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(17, 75, 161);
+}
+
+#meses {
+    height: 40px;
+}
+
+#dia {
+    height: 15px;
+}
+
+#ano{
+    height: 40px;
+}
+
+#imagem_idade {
+    background-image: url('./IMG/bebe_generico.jpg') ;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+}
+
+#imagem_matematica {
+    background-image: url('./IMG/matematica.png') ;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+}
+
+hr {
+    color: black;
+}
+
+#operacao {
+    height: 39px;
+    width: 50px;
 }

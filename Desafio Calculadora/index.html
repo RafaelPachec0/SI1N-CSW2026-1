@@ -1,22 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Idade</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="container">
-        <h1>Calculadora de Idade</h1>
+        <div class="fundo_div">
+            <div id="imagem_idade">
+                <h2><strong>Calculadora Idade</strong></h2>
+            </div>
+        </div>
+        <div>
+            <input type="number" placeholder="Dia" id="dia">
+            <label for="meses"></label>
+            <select name="meses" id="meses">
+                <option value="01">Janeiro</option>
+                <option value="02">Fevereiro</option>
+                <option value="03">Março</option>
+                <option value="04">Abril</option>
+                <option value="05">Maio</option>
+                <option value="06">Junho</option>
+                <option value="07">Julho</option>
+                <option value="08">Agosto</option>
+                <option value="09">Setembro</option>
+                <option value="10">Outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
+            </select>
+            <input type="number" placeholder="Ano de Nascimento" id="anoNascimento">
+            <br>
+            <button onclick="calcularIdade()">Calcular</button>
+        </div>
+        <div>
+            <p id="resultado"></p>
+        </div>
 
-        <input type="text" id="anoNascimento" placeholder="Digite seu ano de Nascimento: ">
-        <button onclick="calcularIdade()">
-            Calcular
-        </button>
-        <p id="resultado"></p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+        <div class="fundo_div">
+            <div id="imagem_matematica">
+                <h2><strong>Calculadora Matemática</strong></h2>
+            </div>
+        </div>
+        <div>
+            <input type="number" placeholder="" id="num1">
+            <label for="operacao"></label>
+            <select name="operacao" id="operacao">
+                <option value="soma">+</option>
+                <option value="subtracao">-</option>
+                <option value="multiplicacao">*</option>
+                <option value="divisao">/</option>
+            </select>
+            <input type="number" placeholder="" id="num2">
+            <br>
+            <button onclick="calcularNumerica()">Calcular</button>
+        </div>
+        <div>
+            <p id="resultado"></p>
+        </div>
+    
+        </div>
     </div>
 
-    <script src="calculadora_idade.js"></script>
+
+
+    <script src="./calculadora_idade.js"></script>
 </body>
+
 </html>
